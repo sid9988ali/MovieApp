@@ -1,0 +1,9 @@
+#latest-movie-card{
+    opacity: .9;
+}
+#latest-movie-card:hover{
+    opacity:1;
+
+    padding-right:1px;
+
+}

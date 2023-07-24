@@ -1,0 +1,21 @@
+
+.mt-5 {
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+.mt-5 h1 {
+  color: white;
+  padding-left: 25px;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+.mt-5 h4{
+  padding-left: 25px;
+  color: white;
+  
+}
+

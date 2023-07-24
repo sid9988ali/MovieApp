@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Comfortaa:wght@500&display=swap');
+
+
+#movie-main-title{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+#movie-card{
+    opacity: .875;
+
+    --c:linear-gradient(#000 0 0); 
+  
+    padding-bottom: .15em;
+    background: var(--c), var(--c);
+    background-size: .3em .1em;
+    background-position:50% 100%;
+    background-repeat: no-repeat;
+    transition: .2s linear, background-size .2s .2s linear;
+
+
+}
+#movie-card:hover{
+opacity:1;
+padding-right:1px;
+background-size: 40% .1em;
+background-position: 10% 100%, 90% 100%;
+
+}
+
+#link-id{
+    text-decoration: none ;
+     color: #2a2a2a; 
+  
+}
+#link-id:hover{
+    color: black;
+    visibility: visible;
+    
+}
